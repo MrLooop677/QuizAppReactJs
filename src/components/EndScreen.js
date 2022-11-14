@@ -7,7 +7,6 @@ import { useSelector } from "react-redux";
 
 const EndScreen = () => {
   const Questions=useSelector(state=>state)
-console.log("Aza",Questions);
   const { score, setScore, setGameState, userName } = useContext(
     GameStateContext
   );
